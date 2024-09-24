@@ -1,0 +1,26 @@
+.btn{
+    font-size: 1.8rem;
+
+}
+.container{
+  display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+}
+.butn:hover{
+    cursor:wait;
+}
+form
+{  display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.inp{
+
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: 2.5rem;
+}

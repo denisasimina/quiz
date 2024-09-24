@@ -1,0 +1,59 @@
+.choice-container{
+    display: flex;
+    text-align: center;
+   flex-direction: row;
+   justify-content:left;
+ 
+   font-size:1.5rem;
+   margin-bottom: 1rem;
+
+   background-color: blue;
+}
+.choice-prefix{
+
+padding:1rem 1.5rem;
+
+/*   */
+
+
+    }
+.choice-text{
+color:white;
+padding: 1rem ;
+}
+.choice-container:hover{
+
+    cursor: pointer;
+    cursor: pointer;
+    box-shadow:0 0.4rem 1.4rem 0 royalblue;
+    transform:translateY(-0.1em);/*se ridica u 0.1*/
+    transition: transform 150ms;  
+}
+h2
+{
+    color:black;
+}
+.correct
+{
+    background-color:green;
+
+
+}
+.incorrect
+{
+    background-color: rgb(203, 0, 0);
+}
+#hud
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.hud-prefix{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.hud-main-text{
+    text-align: center;
+    font-size: 0.7;
+}
