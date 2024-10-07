@@ -5,13 +5,11 @@
 }
 *
 {
-    box-sizing: border-box;/*Înseamnă că dimensiunea totală a elementului include conținutul, bordura și padding-ul,
-     iar marginile sunt adăugate în plus în exteriorul acestora.*/
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin:0; /*se referă la spațiul gol din jurul unui element, adăugat în exteriorul bordurii acestuia. În esență, 
-    este spațiul dintre elementul selectat și alte elemente din jurul său.*/
-    padding: 0;/*se referă la spațiul gol din interiorul unui element,
-     adăugat între conținutul elementului și granița interioară (bordura) a acestuia.*/
+    margin:0;
+    padding: 0;
+
     color: #333;
 }
 
@@ -27,9 +25,7 @@ h1{
     color: white;
     margin-bottom: 5rem;
 }
-/*h1 > span {
-    /* Reguli de stil pentru elementele <span> în interiorul <h1> *
-}*/
+
 
 h1>span{
     font-size: 2.4rem;
@@ -48,17 +44,13 @@ h3{
 {
     width:100vw;
     height: 100vh;
-    display:flex;/* este o instrucțiune în CSS 
-    care face ca elementele să se alinieze într-o anumită direcție*/
+    display:flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
     margin:0 auto;
 }
-/* >: Acesta este selectorul pentru copilul direct. Indică faptul că regulile 
-care urmează se vor aplica doar la elementele care sunt copii direcți ai elementului părinte.
-*: Acesta este un selector pentru toate tipurile de elemente. În acest caz, 
-se referă la orice tip de element care este copil direct al elementului .container. */
+
 .container>*
 {
 
@@ -67,7 +59,7 @@ se referă la orice tip de element care este copil direct al elementului .contai
 .flex-column
 {
     display:flex;
-    flex-direction: column;/*le aseaza una sub alta elementele*/
+    flex-direction: column;
 }
 .flex-center
 {

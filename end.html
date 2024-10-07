@@ -9,23 +9,19 @@
 </head>
 <body>
     <div class="container">
-
         <div id="end" class="flex-center flex-column">
            <h1 id="finalScore">0</h1>
-           <form>
-           
+           <form id="saveScoreForm">
             <input 
-            
-            type="text" 
-            name="username"
-            class="inp"
-             id="username"
-              placeholder="username">
-
+                type="text" 
+                name="username"
+                class="inp"
+                id="username"
+                placeholder="username"
+                required>
               <button type="submit"
               class="btn"
-              id="saveHighScore"
-              onclick="saveHighScore(event)">
+              id="saveHighScore">
                 Save</button>
            </form>
            <a class="btn" href="/game.html">Play again</a>
